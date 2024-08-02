@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <h1>Formulário de Cadastro</h1>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required><br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <p>Selecione suas opções:</p>
+        <label><input type="checkbox" name="opcoes" value="opcao1"> Opção 1</label><br>
+        <label><input type="checkbox" name="opcoes" value="opcao2"> Opção 2</label><br>
+        <label><input type="checkbox" name="opcoes" value="opcao3"> Opção 3</label><br>
+        <label><input type="checkbox" name="opcoes" value="opcao4"> Opção 4</label><br>
+        <label><input type="checkbox" name="opcoes" value="opcao5"> Opção 5</label><br><br>
+
+        <p>Selecione uma opção:</p>
+        <label><input type="radio" name="radio_opcoes" value="radio1" required> Radio 1</label><br>
+        <label><input type="radio" name="radio_opcoes" value="radio2"> Radio 2</label><br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
